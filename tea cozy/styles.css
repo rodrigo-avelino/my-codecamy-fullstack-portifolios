@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header{
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    height: 69px;
+    display: flex;
+    width: 100%;
+    text-align: right;
+    z-index: 1;
+}
+.logo{
+    margin-left: 10px;
+    height: 50px;
+}
+.logo img{
+    height: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    text-align: right;
+    margin-left: 62%;
+}
+a{
+    text-decoration: underline;
+    padding: 0.5rem;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mission{
+    height: 700px;
+    width: 1200px;
+    background-image: url(./resources/img/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto auto;
+}
+.text-content-1{
+    text-align: center;
+    background-color: black;
+    width: 1200px;
+    line-height: 3rem;
+}
+.text-content-2{
+    text-align: center;
+    background-color: black;
+    line-height: 3rem;
+    width: 100%;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem auto;
+}
+.img-cont{
+    padding: auto;
+    margin: auto auto;
+}
+.img-cont h4{
+    margin: 10px auto;
+}
+#t-o-m{
+    width: 1000px;
+}
+#t-o-m img{
+    height: 200px;
+    width: 300px;
+}
+#locations{
+    background-image: url(./resources/img/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto auto;
+    height: 500px;
+    width: 1200px;
+}
+#locations h2{
+    width: 100%;
+}
+.text-content-3{
+    background-color: black;
+    opacity: 1;
+    display: inline-flex;
+    width: 300px;
+    justify-content: center;
+    line-height: 4rem;
+    margin: 15px 20px
+}
+footer{
+    text-align: left;
+    margin: 20px;
+}
+.copyright p{
+    font-size: 18px;
+    font-weight: bold;
+}

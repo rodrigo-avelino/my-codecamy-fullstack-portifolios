@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+header{
+    font-weight: normal;
+    font-size: 25px;
+    color: white;
+}
+.download_link{
+    font-size: 16px;
+    color: aquamarine;
+}
+article{
+    font-weight: 300;
+    font-size: 30px;
+}
+article p{
+    color: gray;
+    font-size: 21px;
+}
+footer p{
+    color: gray;
+    text-align: right;
+}

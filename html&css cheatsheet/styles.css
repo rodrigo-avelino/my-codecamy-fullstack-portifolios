@@ -1,0 +1,31 @@
+table{
+    margin: 20px auto;
+}
+th{
+    border: 2px solid;
+}
+td{
+    border: 2px solid;
+}
+.left{
+    width:200px;
+    text-align: center;
+}
+body{
+    background-color: rgba(21, 182, 147, 0.747);
+}
+thead{
+    background-color: lawngreen;
+    border: 2px solid;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

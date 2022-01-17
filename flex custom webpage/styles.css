@@ -1,0 +1,109 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 100;
+    color: black;
+    background-color: white;
+}
+h2,h3,h4,h5{
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+a{
+    text-decoration: underline;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header h1{
+    margin: 2% auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+.mission{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    margin-top: 10px;
+    background-image: url(./images/iStock-854725372.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mission .content{
+    width: 100%;
+    margin: 150px auto;
+    line-height: 2rem;
+    background-color: white;
+}
+.mission .content h2, h4, p{
+    text-align: center;
+}
+.services-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: solid 1px #95e07e;
+}
+.service img{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(./images/adding-a-nutritionist-to-your-type-2-diabetes-team-1440x810.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team-container{
+    text-align: center;
+}
+.partner{
+    flex-basis: 280px;
+    margin: 0 20px;
+}
+.partner img{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+#backgorund-text{
+    color: white;
+    background-color: black;
+}
+.contact{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 60px;
+}
+.copyright{
+    text-align: center;
+}
